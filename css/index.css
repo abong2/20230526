@@ -1,0 +1,96 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul,li{
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    /* flex-direction: column; */
+    /* background-color: aquamarine; */
+    justify-content: flex-end;
+    align-items: center;
+}
+header ul li{
+    float: left;
+    padding: 10px;
+}
+
+.login{
+    background-color: rgb(143, 161, 241);
+    color: aliceblue;
+    border-style: none ;
+    padding: 5px 8px;
+}
+main{
+    width: 100%;
+    height: 90vh;
+    /* background-color: antiquewhite; */
+}
+.google{
+    width: 100%;
+    height: 35%;
+    text-align: center;
+    /* background-color: rgb(0, 37, 25); */
+    }
+.google img{
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.find{
+    width: 100%;
+    /* height: 20%; */
+    /* background-color: azure; */
+    text-align: center;
+    margin-bottom: 20px;
+    }
+
+.search-bar{
+    width: 500px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    position: relative;
+    padding-left: 20px;
+    
+  } 
+input{
+    width: 80%;
+    height:100%;
+    margin-right: 10px;
+    border: 0px;
+}
+.icon {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    /* top: 5px;
+    right: 10px;
+    left: 10px; */
+  }
+  .bu{
+    width: 100%;
+    text-align: center;
+    /* background-color: aquamarine; */
+  }
+  .bu button{
+    padding: 5px;
+  }
+  input:focus{
+    outline: none;
+  }
